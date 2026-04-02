@@ -4,15 +4,24 @@
   "description": "Este é um projeto de clone do Spotify, desenvolvido para fins educacional. O objetivo é criar uma interface semelhante à do Spotify, utilizando tecnolgia web.",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "dev": "tailwindcss -i ./input.css -o ./src/css/style.css --watch",
+    "build": "tailwindcss -i ./input.css -o ./src/css/style.css"
+  
   },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/marcellogomes-santos/CloneSpotify.git"
   },
-  "keywords": [],
-  "author": "",
-  "license": "ISC",
+  "keywords": [
+    "tailwindcss",
+    "spotify",
+    "clone",
+    "html",
+    "css",
+    "javascript"
+  ],
+  "author": "Marcello Gomes dos Santos",
+  "license": "MIT",
   "type": "commonjs",
   "bugs": {
     "url": "https://github.com/marcellogomes-santos/CloneSpotify/issues"
